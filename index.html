@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='noindex, nofollow'/>
+    <title>Za chwilę będziemmy ;) Jemmy.pl</title>
+    <meta name="description" content="Za chwilę będziemmy ;) Jemmy.pl"/>
+    <link rel="icon" type="image/png" href="./favicon.png"/>
+    <meta name="theme-color" content="#ffe123">
+    <style>
+        @font-face {
+            font-family: 'Font';
+            font-style: normal;
+            font-weight: 400;
+            src: local(''),
+                url('./Klim-Order/FoundersGrotesk-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                url('./Klim-Order/FoundersGrotesk-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+
+        @font-face {
+            font-family: 'Font';
+            font-style: normal;
+            font-weight: 700;
+            src: local(''),
+                url('./Klim-Order/FoundersGrotesk-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                url('./Klim-Order/FoundersGrotesk-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        html, body {
+            background-color: #ffe100;
+            font-family: 'Font', Arial, Helvetica, sans-serif;
+            color: #61005f;
+            font-size: 16px;
+            line-height: 1.2;
+        }
+
+        body {
+            min-height: 100vh;
+            padding: 0 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #logo {
+            margin: 0 auto;
+            display: block;
+            max-width: 100%;
+        }
+
+        #header {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 44px;
+            margin-top: 100px;
+            margin-bottom: 15px;
+        }
+
+        .menu {
+            list-style: none;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            display: inline-flex;
+            column-gap: 40px;
+            justify-content: center;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li:not(:last-child) {
+            position: relative;
+        }
+
+        .menu li:not(:last-child)::before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -20px;
+            content: " ";
+            width: 2px;
+            height: 26px;
+            background-color: #61005f;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #61005f;
+            font-size: 24px;
+        }
+
+        #copy {
+            text-align: center;
+            padding-bottom: 50px;
+            font-size: 24px;
+        }
+
+        @media (max-width: 768px) {
+
+            .menu li a {
+                font-size: 18px;
+            }
+
+            #copy {
+                font-size: 18px;
+            }
+
+            .menu li:not(:last-child)::before {
+                height: 22px;
+            } 
+
+            h1 {
+                font-size: 28px;
+                margin-top:50px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Za chwilę będziemmy ;)</h1>
+    <div id="header">
+        <img id="logo" src="./logo.jpg" width="600px" alt="Jemmy.pl">
+    </div>
+    <ul class="menu">
+        <li>
+            <a href="./regulamin.html">Regulamin</a>
+        </li>
+        <li>
+            <a href="./polityka-prywatnosci.html">Polityka prywatności</a>
+        </li>
+    </ul>
+    <div id="copy">
+        2023 Mind the Label sp.z.o.o.<br/>
+        All rights reserved.
+    </div>
+</body>
+</html>
+<!--
